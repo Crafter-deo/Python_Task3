@@ -64,8 +64,7 @@ try:
             else:
                 guess_limit -= 1
                 print(f"Wrong! You have {guess_limit + 1} guesses left")
-
+    else:
+        print(" Please select a number from above")
 except ValueError:
     print("Please enter a number")
-
-
